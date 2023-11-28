@@ -17,9 +17,9 @@ resource "aws_iam_role" "app_iam_role" {
     Name    = "${var.project}-${var.environment}-app-iam-role"
     Project = var.project
     Env     = var.environment
-    Message = "Hello　again"
+    Message = "Hello　again!"
   }
-}
+}ｄ
 
 data "aws_iam_policy_document" "ec2_assume_role" {
   statement {
