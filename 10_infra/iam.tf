@@ -19,7 +19,7 @@ resource "aws_iam_role" "app_iam_role" {
     Env     = var.environment
     Message = "Hello　again!"
   }
-}ｄ
+}
 
 data "aws_iam_policy_document" "ec2_assume_role" {
   statement {
