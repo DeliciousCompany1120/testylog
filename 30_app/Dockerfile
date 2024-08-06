@@ -1,7 +1,7 @@
 FROM node:16-alpine
 
 # 必要なビルドツールをインストール
-# 必要なビルドツールをインストール
+# featureブランチで修正した内容です。
 RUN apk add --no-cache python3 make g++ 
 
 COPY . /home/node/webapp
