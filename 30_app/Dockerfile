@@ -1,6 +1,7 @@
 FROM node:16-alpine
 
 # 必要なビルドツールをインストール
+# 必要なビルドツールをインストール
 RUN apk add --no-cache python3 make g++ 
 
 COPY . /home/node/webapp
